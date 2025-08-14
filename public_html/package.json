@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "daisyui": "^5.0.50"
+  },
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+}
+
+}
+
