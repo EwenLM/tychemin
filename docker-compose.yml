@@ -14,6 +14,7 @@ services:
     container_name: mariadb-o2
     restart: always
     environment:
+      MARIADB_ROOT_PASSWORD: Bb,JBVv4t@%-
       MYSQL_DATABASE: leew5464_gite
       MYSQL_USER: leew5464_gite
       MYSQL_PASSWORD: Bb,JBVv4t@%-
@@ -30,8 +31,5 @@ services:
       - "8081:80"
     environment:
       PMA_HOST: db
-      PMA_USER: leew5464_gite
-      PMA_PASSWORD: Bb,JBVv4t@%-
-
 volumes:
   db_data:
